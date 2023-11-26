@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header>
+    <header className="header">
       <div className="header-container">
         <Link to="/">
           <img className="header-logo" src={Logo} alt="Little Lemon logo" />

@@ -1,8 +1,66 @@
-/* font-family: 'Karla', sans-serif;
-font-family: 'Markazi Text', serif; */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
+}
+
+.main-title {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.sub-title {
+  color: #495e57;
+  font-family: "Markazi Text", serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.button-primary,
+.button-secondary {
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  transition: 0.3s all ease-in-out;
+  width: fit-content;
+}
+
+.button-primary,
+.button-secondary:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}
+
+.button-primary:hover,
+.button-secondary {
+  background-color: #495e57;
+  color: #f4ce14;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+  color: #495e57;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f4ce14;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

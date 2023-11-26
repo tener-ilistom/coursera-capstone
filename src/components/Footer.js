@@ -14,22 +14,22 @@ export default function Footer() {
 
         <div className="footer-section">
           <h2>QUICK LINKS</h2>
-          <Link to="/" className="footer-link">
+          <Link to="/" className="footer-link ">
             Home
           </Link>
-          <Link to="/about" className="footer-link">
+          <Link to="/about" className="footer-link ">
             About
           </Link>
-          <Link to="/menu" className="footer-link">
+          <Link to="/menu" className="footer-link ">
             Menu
           </Link>
-          <Link to="/reservations" className="footer-link">
+          <Link to="/reservations" className="footer-link ">
             Reservations
           </Link>
-          <Link to="/order-online" className="footer-link">
+          <Link to="/order-online" className="footer-link ">
             Order online
           </Link>
-          <Link to="/login" className="footer-link">
+          <Link to="/login" className="footer-link ">
             Login
           </Link>
         </div>
@@ -43,22 +43,22 @@ export default function Footer() {
             />
             2232 Abbey Road, NY
           </p>
-          <p className="contact-info">
+          <a className="contact-info" href="tel:123-456-7890">
             <img
               className="contact-icon"
               src={require("../assets/icons/phone.png")}
               alt="Phone icon"
             />
             +44 5578 999 21
-          </p>
-          <p className="contact-info">
+          </a>
+          <a className="contact-info" href="mailto:info@littlelemon.com">
             <img
               className="contact-icon"
               src={require("../assets/icons/email.png")}
               alt="Email icon"
             />
             info@littlelemon.com
-          </p>
+          </a>
         </div>
         <div className="footer-section">
           <h2>CONNECT WITH US</h2>

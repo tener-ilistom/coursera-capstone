@@ -1,5 +1,6 @@
 import React from "react";
+import Specials from "../components/Specials";
 
 export default function Menu() {
-  return <h1>THIS IS THE MENU PAGE</h1>;
+  return <Specials />;
 }

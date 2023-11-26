@@ -52,3 +52,16 @@ footer {
 .connect-container {
   display: flex;
 }
+
+.footer-link,
+.contact-icon,
+.contact-info {
+  transition: 0.3s all ease-in-out;
+}
+
+.footer-link:hover,
+.contact-icon:hover,
+.contact-info:hover {
+  opacity: 0.4;
+  transition: 0.3s all ease-in-out;
+}

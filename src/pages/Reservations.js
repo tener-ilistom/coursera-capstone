@@ -1,5 +1,6 @@
 import React from "react";
+import Placeholder from "../components/Placeholder";
 
 export default function Reservations() {
-  return <h1>THIS IS THE RESERVATIONS PAGE</h1>;
+  return <Placeholder />;
 }

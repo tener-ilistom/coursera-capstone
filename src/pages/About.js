@@ -1,5 +1,6 @@
 import React from "react";
+import AboutUs from "../components/AboutUs";
 
 export default function About() {
-  return <h1>THIS IS THE ABOUT PAGE</h1>;
+  return <AboutUs />;
 }

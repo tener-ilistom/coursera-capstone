@@ -2,12 +2,17 @@ import React from "react";
 import Logo from "../assets/Logo.svg";
 import Nav from "./Nav";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="header">
-      <img src={Logo} alt="Little Lemon logo" />
-      <Nav />
-    </div>
+    <header>
+      <div className="header-container">
+        <Link to="/">
+          <img className="header-logo" src={Logo} alt="Little Lemon logo" />
+        </Link>
+        <Nav />
+      </div>
+    </header>
   );
 }

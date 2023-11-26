@@ -1,0 +1,54 @@
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: #495e57;
+  color: white;
+}
+
+.footer-container {
+  max-width: 1100px;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 0;
+}
+
+.footer-section h2 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.footer-logo {
+  height: 65%;
+  margin: auto;
+}
+
+.footer-link,
+.contact-info {
+  color: white;
+  padding-top: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  height: 1.5rem;
+  padding-right: 1rem;
+  filter: brightness(0) invert(1);
+}
+
+.connect-container {
+  display: flex;
+}

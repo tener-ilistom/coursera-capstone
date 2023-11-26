@@ -1,5 +1,6 @@
 import React from "react";
+import "./Main.css";
 
 export default function Main() {
-  return <h1>This is a main element</h1>;
+  return <div className="main">This is a main element</div>;
 }

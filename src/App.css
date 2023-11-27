@@ -68,3 +68,11 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+@media screen and (max-width: 850px) {
+  .underline,
+  .underline::after,
+  .underline:hover::after {
+    all: unset;
+  }
+}

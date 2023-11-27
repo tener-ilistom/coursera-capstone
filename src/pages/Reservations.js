@@ -1,6 +1,6 @@
 import React from "react";
-import Placeholder from "../components/Placeholder";
+import Booking from "../components/Booking";
 
 export default function Reservations() {
-  return <Placeholder />;
+  return <Booking />;
 }

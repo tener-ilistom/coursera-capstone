@@ -19,6 +19,10 @@
   font-weight: 500;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .button-primary,
 .button-secondary {
   font-weight: 700;

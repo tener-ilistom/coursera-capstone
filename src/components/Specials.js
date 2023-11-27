@@ -7,7 +7,7 @@ export default function Specials() {
     <section className="specials">
       <div className="specials-title">
         <h2 className="sub-title">Our specials this week:</h2>
-        <Link to="/menu" className="nav-link">
+        <Link to="/menu" className="no-underline">
           <div className="button-primary menu-button">OUR MENU</div>
         </Link>
       </div>

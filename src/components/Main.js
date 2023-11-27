@@ -15,7 +15,7 @@ export default function Main() {
             semper. Interdum et malesuada fames ac ante ipsum primis in
             faucibus.
           </p>
-          <Link to="/reservations" className="nav-link">
+          <Link to="/reservations" className="no-underline">
             <div className="button-primary main-button">RESERVE A TABLE</div>
           </Link>
         </div>

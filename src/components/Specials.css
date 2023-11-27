@@ -77,3 +77,34 @@
   padding: 1rem;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 850px) {
+  .specials {
+    height: auto;
+  }
+
+  .specials-title {
+    padding: 0 1rem;
+  }
+  .specials-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specials-card {
+    width: 50%;
+    aspect-ratio: 3/4;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .specials-title {
+    flex-direction: column;
+    align-items: center;
+  }
+  .specials-card {
+    width: 90%;
+    aspect-ratio: 3/4;
+  }
+}

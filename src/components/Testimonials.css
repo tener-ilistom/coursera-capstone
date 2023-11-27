@@ -67,3 +67,51 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 850px) {
+  .testimonials {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials-container {
+    padding-bottom: 3rem;
+  }
+
+  .testimonials-title {
+    display: flex;
+  }
+
+  .testimonial-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    width: 60%;
+    height: 350px;
+    aspect-ratio: unset;
+  }
+
+  .testimonial-text {
+    margin-bottom: 2rem;
+  }
+
+  .rating {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .testimonials-title {
+    display: flex;
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+
+  .testimonial-card {
+    width: 80%;
+    height: 350px;
+  }
+}

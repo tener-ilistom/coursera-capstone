@@ -31,13 +31,51 @@
 
 .about-us-img:first-of-type {
   position: relative;
-
   top: 0;
   right: 0;
 }
 .about-us-img:last-of-type {
   position: absolute;
-
   bottom: 0;
   right: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .about-us {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us-text-container {
+    max-width: 65ch;
+    padding-right: unset;
+    padding-bottom: 2rem;
+  }
+
+  .about-us-img-container {
+    width: unset;
+    position: unset;
+    height: 50%;
+  }
+
+  .about-us-img {
+    height: 300px;
+  }
+  .about-us-img:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about-us-text-container {
+    width: 80%;
+  }
+  .about-us-img-container {
+    width: 80%;
+  }
+  .about-us-img {
+    width: 100%;
+    height: auto;
+  }
 }

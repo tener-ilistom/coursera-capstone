@@ -65,3 +65,47 @@ footer {
   opacity: 0.4;
   transition: 0.3s all ease-in-out;
 }
+
+.footer-links {
+  grid-area: links;
+}
+.footer-contact {
+  grid-area: contact;
+}
+.footer-connect {
+  grid-area: connect;
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    height: auto;
+  }
+
+  .footer-section h2 {
+    padding-top: 2rem;
+  }
+
+  .footer-link,
+  .contact-info {
+    padding-top: 0.4rem;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-areas:
+      "links contact"
+      "links connect";
+    padding-bottom: 2rem;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-container {
+    display: block;
+    padding-left: 3rem;
+  }
+}

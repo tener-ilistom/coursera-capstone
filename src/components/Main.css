@@ -41,3 +41,26 @@ main {
   object-fit: cover;
   border-radius: 16px;
 }
+
+@media screen and (max-width: 850px) {
+  main {
+    padding-top: 2rem;
+  }
+  .main-text-container {
+    margin-left: 1rem;
+  }
+
+  .main-text {
+    max-width: 40ch;
+  }
+
+  .main-img {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-img {
+    display: none;
+  }
+}

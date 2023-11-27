@@ -12,28 +12,28 @@ export default function Footer() {
           alt="Little Lemon logo"
         />
 
-        <div className="footer-section">
+        <div className="footer-section footer-links">
           <h2>QUICK LINKS</h2>
-          <Link to="/" className="footer-link ">
+          <Link to="/" className="footer-link">
             Home
           </Link>
-          <Link to="/about" className="footer-link ">
+          <Link to="/about" className="footer-link">
             About
           </Link>
-          <Link to="/menu" className="footer-link ">
+          <Link to="/menu" className="footer-link">
             Menu
           </Link>
-          <Link to="/reservations" className="footer-link ">
+          <Link to="/reservations" className="footer-link">
             Reservations
           </Link>
-          <Link to="/order-online" className="footer-link ">
+          <Link to="/order-online" className="footer-link">
             Order online
           </Link>
-          <Link to="/login" className="footer-link ">
+          <Link to="/login" className="footer-link">
             Login
           </Link>
         </div>
-        <div className="footer-section">
+        <div className="footer-section footer-contact">
           <h2>CONTACT</h2>
           <p className="contact-info">
             <img
@@ -60,7 +60,7 @@ export default function Footer() {
             info@littlelemon.com
           </a>
         </div>
-        <div className="footer-section">
+        <div className="footer-section footer-connect">
           <h2>CONNECT WITH US</h2>
           <div className="connect-container">
             <a href="https://www.facebook.com">
